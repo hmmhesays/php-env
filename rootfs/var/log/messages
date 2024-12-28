@@ -1,0 +1,14 @@
+Dec 20 22:06:19 php-env syslog.info syslogd started: BusyBox v1.37.0
+Dec 20 22:06:19 php-env daemon.info init: starting pid 262, tty '': '/sbin/openrc default'
+Dec 20 22:06:19 php-env cron.info crond[282]: crond (busybox 1.37.0) started, log level 8
+Dec 20 22:06:20 php-env daemon.info init: starting pid 416, tty '': '/sbin/getty 38400 console'
+Dec 20 22:15:00 php-env cron.info crond[282]: USER root pid 417 cmd run-parts /etc/periodic/15min
+Dec 20 22:30:00 php-env cron.info crond[282]: USER root pid 423 cmd run-parts /etc/periodic/15min
+Dec 20 22:43:31 php-env daemon.info init: starting pid 435, tty '': '/sbin/openrc shutdown'
+Dec 20 22:43:31 php-env daemon.debug start-stop-daemon[497]: Will stop /usr/sbin/crond
+Dec 20 22:43:31 php-env daemon.debug start-stop-daemon[497]: Will stop PID 282
+Dec 20 22:43:31 php-env daemon.debug start-stop-daemon[497]: Sending signal 15 to PID 282
+Dec 20 22:43:31 php-env daemon.debug start-stop-daemon[523]: Will stop /sbin/syslogd
+Dec 20 22:43:31 php-env daemon.debug start-stop-daemon[523]: Will stop PID 255
+Dec 20 22:43:31 php-env daemon.debug start-stop-daemon[523]: Sending signal 15 to PID 255
+Dec 20 22:43:31 php-env syslog.info syslogd exiting

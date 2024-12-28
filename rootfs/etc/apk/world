@@ -1,0 +1,11 @@
+alpine-base
+alpine-baselayout
+alpine-keys
+alpine-release
+apk-tools
+busybox
+doas
+libc-utils
+logrotate
+php84
+php84-curl
