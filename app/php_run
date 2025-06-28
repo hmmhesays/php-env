@@ -5,4 +5,5 @@ EXPECTED_INTERPRETER=$DIR/../rootfs/lib/ld-musl-x86_64.so.1
 EXPECTED_RPATH=$DIR/../rootfs/usr/lib/
 BINARY=$DIR/../rootfs/usr/bin/php84
 $DIR/elf_check.sh -b $BINARY -i $EXPECTED_INTERPRETER -r $EXPECTED_RPATH
+export OPENSSL_CONF=$DIR/../rootfs/etc/ssl/openssl.cnf
 PHP_INI_SCAN_DIR=$DIR/../rootfs/etc/php84/:$DIR/../rootfs/etc/php84/conf.d $DIR/../rootfs/usr/bin/php84 -d extension_dir=$DIR/../rootfs/usr/lib/php84/modules -d curl.cainfo=$DIR/../rootfs/etc/ssl/cert.pem $@
